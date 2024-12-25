@@ -50,7 +50,7 @@ class UserInfo extends Model
             $userInfo->openid = $openid;
             $userInfo->device_id = 0;
             $userInfo->nickname = '用户' . $userInfo->uid;
-            $userInfo->avatar = 'http://staticimg.wlanbanlv.com/omc/202403/080415da1b6be18aea087b52e62ebb7b86874755.png';
+            $userInfo->avatar = '';
             $userInfo->status = UserInfo::STATUS_YES;
             $userInfo->save();
         }
@@ -69,7 +69,7 @@ class UserInfo extends Model
             $userInfo->android_id = $androidId;
             $userInfo->device_id = 0;
             $userInfo->nickname = '用户' . $userInfo->uid;
-            $userInfo->avatar = 'http://staticimg.wlanbanlv.com/omc/202403/080415da1b6be18aea087b52e62ebb7b86874755.png';
+            $userInfo->avatar = '';
             $userInfo->status = UserInfo::STATUS_YES;
             $userInfo->save();
         }
